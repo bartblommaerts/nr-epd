@@ -1,0 +1,26 @@
+<script type="text/javascript">
+	RED.nodes.registerType('nrepd',{
+		category: 'function',
+		color: '#a6bbcf',
+		defaults: {
+			name: {value:""}
+		},
+		inputs:1,
+		outputs:1,
+		icon: "monitor.png",
+		label: function(){
+			return this.name||"nr-epd";
+		}
+	});
+</script>
+
+<script> type="text/x-red" data-template-name="nr-epd">
+	<div> class="form-row">
+		<label for="node-input-name"><i class="icon-tag"></i> Name</label>
+		<input type="text" id="node-input-name" placeholder="Name">
+	</div>
+</script>
+
+<script type="text/x-red" data-help-name="nr-epd">
+	<p>This node wraps Williwasser's epd7x5 module for Node-Red</p>
+</script>
