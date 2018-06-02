@@ -1,0 +1,27 @@
+{
+  "name": "node-red-contrib-epdnode",
+  "version": "0.0.1",
+  "description": "Node Red wrapper for Williwasser's epd7x5's module.",
+  "main": "nr-epd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartblommaerts/nr-epd.git"
+  },
+  "keywords": [
+    "Node-Red",
+    "npm",
+    "NodeJS",
+    "ePaper",
+    "Waveshare",
+    "7.5in"
+  ],
+  "author": "Bart Blommaerts",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bartblommaerts/nr-epd/issues"
+  },
+  "homepage": "https://github.com/bartblommaerts/nr-epd#readme"
+}
